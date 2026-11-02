@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BlinkBasket - groceries and everyday essentials delivered fast." />
+  <title>BlinkBasket — Groceries in minutes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-strip"><span>⚡</span> Free delivery on your first order <b>•</b> Use code <strong>FRESH10</strong></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="BlinkBasket home"><span class="brand-mark">b<span>!</span></span><span>Blink<span>Basket</span></span></a>
+    <div class="delivery"><span class="pin">⌖</span><div><strong>Delivery in 10 minutes</strong><small>Home · Sector 62, Noida <span>⌄</span></small></div></div>
+    <label class="search"><span>⌕</span><input type="search" placeholder="Search for atta, dal, coffee..." aria-label="Search products"><kbd>⌘ K</kbd></label>
+    <div class="header-actions"><a class="login" href="#login">Login</a><a class="cart" href="#cart"><span>▣</span> My Cart <b>0</b></a></div>
+  </header>
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy"><div class="eyebrow"><span></span> YOUR DAILY NEEDS, SORTED</div><h1>Good things.<br><em>Fast</em> things.</h1><p>Fresh groceries and everyday favourites, delivered to your door before you can say <strong>“where's my snack?”</strong></p><div class="hero-buttons"><a class="primary-btn" href="#shop">Shop now <span>↗</span></a><div class="delivery-note"><span>⚡</span><div><b>10 min delivery</b><small>On your first order</small></div></div></div><div class="hero-proof"><div class="avatars"><i>👩🏽</i><i>👨🏻</i><i>👩🏼</i><i>🧑🏾</i></div><span><b>2M+</b> happy snackers</span><span class="stars">★★★★★ <small>4.8/5</small></span></div></div>
+      <div class="hero-art"><div class="hero-blob"></div><div class="sunburst">FRESH<br>IS FAST <span>✳</span></div><div class="hero-bag"><div class="bag-handle"></div><div class="bag-face"><span class="bag-logo">b<span>!</span></span><b>GOOD<br>STUFF.</b></div></div><div class="floating fruit fruit-one">🥑</div><div class="floating fruit fruit-two">🍊</div><div class="floating fruit fruit-three">🥬</div><div class="floating mini-tag">✦ PICKED<br>WITH LOVE</div><div class="hero-shadow"></div></div>
+    </section>
+    <section class="category-section wrap" id="shop"><div class="section-heading"><div><span class="section-kicker">A LITTLE BIT OF EVERYTHING</span><h2>Shop by category</h2></div><a class="text-link" href="#categories">See all categories <span>→</span></a></div>
+      <div class="category-grid" id="categories">
+        <a class="category-card cat-yellow" href="#products"><div class="category-emoji">🥦</div><b>Vegetables & Fruits</b><small>Farm fresh picks</small></a>
+        <a class="category-card cat-pink" href="#products"><div class="category-emoji">🥛</div><b>Dairy & Breakfast</b><small>Start fresh daily</small></a>
+        <a class="category-card cat-lilac" href="#products"><div class="category-emoji">🍪</div><b>Snacks & Munchies</b><small>Little happy breaks</small></a>
+        <a class="category-card cat-blue" href="#products"><div class="category-emoji">🧴</div><b>Beauty & Hygiene</b><small>Everyday care</small></a>
+        <a class="category-card cat-green" href="#products"><div class="category-emoji">🧹</div><b>Home & Cleaning</b><small>Neat little things</small></a>
+        <a class="category-card cat-orange" href="#products"><div class="category-emoji">🍫</div><b>Chocolates</b><small>Sweeten the day</small></a>
+      </div>
+    </section>
+    <section class="deal-banner wrap"><div class="deal-copy"><span class="deal-label">THE WEEKEND EDIT</span><h2>Snack o'clock<br>just got <em>better.</em></h2><p>Big cravings. Tiny prices. Your favourites are waiting.</p><a href="#products">Explore snacks <span>↗</span></a></div><div class="deal-art"><span class="deal-sticker">UP TO<br><b>40%</b><br>OFF</span><span class="snack snack-a">🍿</span><span class="snack snack-b">🍟</span><span class="snack snack-c">🍩</span><span class="snack snack-d">🍓</span><span class="deal-spark">✳</span></div></section>
+    <section class="products-section wrap" id="products"><div class="section-heading"><div><span class="section-kicker">THE CROWD FAVOURITES</span><h2>Popular near you <span class="heading-spark">✳</span></h2></div><a class="text-link" href="#products">View all <span>→</span></a></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image product-avocado"><span class="discount">15% OFF</span><span class="product-art">🥑</span><button class="add-btn" aria-label="Add avocado">+</button></div><div class="product-meta"><span>10 MINS</span><span>⭐ 4.8</span></div><h3>Fresh Avocado</h3><p>1 piece · approx. 200 g</p><div class="price-row"><b>₹89</b><del>₹105</del></div></article>
+        <article class="product-card"><div class="product-image product-milk"><span class="product-art">🥛</span><button class="add-btn" aria-label="Add milk">+</button></div><div class="product-meta"><span>10 MINS</span><span>⭐ 4.9</span></div><h3>Farm Fresh Milk</h3><p>500 ml · full cream</p><div class="price-row"><b>₹32</b></div></article>
+        <article class="product-card"><div class="product-image product-bread"><span class="product-art">🍞</span><button class="add-btn" aria-label="Add bread">+</button></div><div class="product-meta"><span>10 MINS</span><span>⭐ 4.7</span></div><h3>Whole Wheat Bread</h3><p>400 g · freshly baked</p><div class="price-row"><b>₹45</b><del>₹50</del></div></article>
+        <article class="product-card"><div class="product-image product-berries"><span class="discount">BESTSELLER</span><span class="product-art">🍓</span><button class="add-btn" aria-label="Add strawberries">+</button></div><div class="product-meta"><span>10 MINS</span><span>⭐ 4.9</span></div><h3>Juicy Strawberries</h3><p>1 pack · 200 g</p><div class="price-row"><b>₹119</b><del>₹149</del></div></article>
+      </div>
+    </section>
+    <section class="promise wrap"><div class="promise-item"><span>⚡</span><div><b>At your door in 10</b><small>Speedy delivery, always</small></div></div><div class="promise-item"><span>🌱</span><div><b>Freshness first</b><small>Handpicked every day</small></div></div><div class="promise-item"><span>♡</span><div><b>Good prices, daily</b><small>More value in every bag</small></div></div><div class="promise-item"><span>↺</span><div><b>No fuss returns</b><small>We make it right</small></div></div></section>
+  </main>
+  <footer><div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">b<span>!</span></span><span>Blink<span>Basket</span></span></a><p>Little things, delivered with a little more joy.</p></div><div class="footer-links"><a href="#about">About us</a><a href="#care">Customer care</a><a href="#terms">Terms</a><a href="#privacy">Privacy</a></div><small>© 2026 BlinkBasket. Made for the everyday.</small></footer>
+</body>
+</html>
